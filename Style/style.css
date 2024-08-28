@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  position: static;
+  width: 279px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  border-radius: 5px;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 15px 22px 11px 22px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px auto;
+  border: none;
+}
+
+#hero {
+  height: 542px;
+  background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .hero_content {
+  width: 604px;
+
+}
+
+#hero .hero_content .subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#hero .hero_content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#hero .hero_content .foot {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+
+}
+
+#card_box {
+  position: static;
+  width: 779px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#card_box .head .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#card_box .head .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.contents {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pizza {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pizza img {
+  width: 100%;
+}
+
+.pizza span {
+  padding: 14px 32px 14px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+}
+
+.pizza h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.pizza p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+footer button {
+  padding: 11px 22px 11px 22px;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+  margin-top: 20px;
+  margin-left: 330px;
+}
+
+#contacts {
+  margin-top: 30px;
+  display: flex;
+  gap: 250px;
+  margin-bottom: 20px;
+}
+
+#contacts .image img {
+  width: 557px;
+  margin-left: 30px;
+}
+
+#contacts h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#contacts  p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#contacts h3{
+  color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+margin-bottom: 10px;
+}
+
+#contacts i{
+  display: inline-block;
+  padding-left: 60px;
+}
